@@ -1,0 +1,19 @@
+{
+  "name": "gigac-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Branislav Gigac — Lepšia Prievidza (statický web, editovateľný cez TinaCMS)",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy",
+    "tina:dev": "tinacms dev -c \"eleventy --serve\"",
+    "tina:build": "tinacms build && eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@tinacms/cli": "^1.6.0"
+  },
+  "dependencies": {
+    "tinacms": "^2.5.0"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "lang": "sk",
+    "title": "Branislav Gigac — Lepšia Prievidza",
+    "description": "Branislav Gigac, kandidát na primátora Prievidze. Nová energia pre naše mesto. Prievidza, pod ktorú sa môžem podpísať."
+  },
+  "nav": {
+    "links": [
+      { "label": "Príbeh", "href": "#pribeh" },
+      { "label": "Môj plán", "href": "#plan" },
+      { "label": "Tím", "href": "#tim" },
+      { "label": "Podpora", "href": "#podpora" },
+      { "label": "Kontakt", "href": "#kontakt" }
+    ],
+    "ctaLabel": "Podporiť kampaň",
+    "ctaHref": "#podpora"
+  },
+  "hero": {
+    "tag": "Kandidát na primátora Prievidze · 2026",
+    "titleLine1": "Nová energia",
+    "titleLine2Prefix": "pre ",
+    "titleHighlight": "Prievidzu",
+    "claim": "Prievidza, pod ktorú sa môžem podpísať.",
+    "btnPrimaryLabel": "Môj plán pre Prievidzu",
+    "btnPrimaryHref": "#plan",
+    "btnSecondaryLabel": "Podporiť zmenu",
+    "btnSecondaryHref": "#podpora",
+    "poster": "/img/gigac-foto.jpg",
+    "video": "/img/video-hero1.mp4"
+  },
+  "intro": {
+    "lead": "Dnes stojím opäť pred rozhodnutím uchádzať sa o&nbsp;vašu dôveru. Nehľadám funkciu. Robím to preto, že <b>verím v Prievidzu.</b>",
+    "paragraphs": [
+      "Verím v&nbsp;mesto, ktoré dokáže udržať mladých ľudí doma. V&nbsp;mesto, na&nbsp;ktoré budú hrdé rodiny aj seniori. V&nbsp;mesto, ktoré sa nebojí veľkých projektov ani nových príležitostí. V&nbsp;mesto, ktoré konečne napreduje.",
+      "Poďme do&nbsp;toho spolu a&nbsp;dajme Prievidzi budúcnosť, na&nbsp;ktorú budeme opäť právom hrdí."
+    ]
+  },
+  "stats": [
+    { "value": "17", "label": "rokov mal, keď založil Alianciu stredoškolákov, najväčšiu na Slovensku" },
+    { "value": "2018", "label": "historicky najmladší poslanec v dejinách Prievidze" },
+    { "value": "4&nbsp;400", "label": "hlasov v komunálnych voľbách 2022 ako nezávislý kandidát" },
+    { "value": "8", "label": "rokov konštruktívnej a odbornej práce pre mesto" }
+  ],
+  "about": {
+    "kicker": "Môj príbeh",
+    "title": "Prievidza je môj domov",
+    "photo": "/img/gigac-foto.jpg",
+    "photoAlt": "Branislav Gigac",
+    "chip": "Branislav Gigac",
+    "paragraphs": [
+      "Volám sa Branislav Gigac a&nbsp;celý môj verejný život sa spája s&nbsp;presvedčením, že veci sa dajú meniť k&nbsp;lepšiemu. Pochádzam z&nbsp;obyčajnej učiteľskej rodiny, vďaka čomu od malička viem, aká dôležitá je poctivá práca, trpezlivosť a&nbsp;najmä služba druhým.",
+      "Keď som mal 17 rokov, založil som Alianciu stredoškolákov. Postupne sa z&nbsp;nej stala najväčšia stredoškolská organizácia na&nbsp;Slovensku. Rokoval som s&nbsp;ministrami, vládou aj poslancami. Práve vtedy som pochopil niečo kľúčové: ak má človek odvahu ozvať sa a&nbsp;pracovať pre&nbsp;dobrú vec, zmena je možná.",
+      "V&nbsp;roku 2018 ste mi dali dôveru a&nbsp;zvolili ma za&nbsp;poslanca mestského zastupiteľstva. Ako historicky najmladší poslanec v&nbsp;dejinách Prievidze som cítil obrovskú zodpovednosť. Odvtedy sa venujem transparentnosti, efektívnemu hospodáreniu a&nbsp;rozvoju nášho mesta.",
+      "Od&nbsp;februára 2023 pôsobím ako hovorca verejného ochrancu práv. Každý deň sa stretávam s&nbsp;príbehmi ľudí, ktorí hľadajú spravodlivosť a&nbsp;pomoc. Táto práca ma len utvrdzuje v&nbsp;tom, že verejná služba má zmysel iba vtedy, keď prináša konkrétne výsledky pre&nbsp;ľudí."
+    ]
+  },
+  "plan": {
+    "kicker": "Môj plán pre Prievidzu",
+    "title": "Päť oblastí, ktoré pohnú mesto dopredu",
+    "intro": [
+      "Naše mesto má obrovský potenciál, no posledné roky sa posúva dopredu pomalšie ako iné slovenské mestá. Prievidza si zaslúži viac. Zaslúži si odborné riadenie a&nbsp;jasnú víziu.",
+      "Pri tvorbe plánu pre&nbsp;lepšie mesto som preto neostal sám. Spojil som sily s&nbsp;desiatkami odborníčok a&nbsp;odborníkov, expertov z&nbsp;rôznych oblastí a&nbsp;aktívnych obyvateľov. Spoločne pripravujeme konkrétnu, merateľnú a&nbsp;komplexnú víziu pre&nbsp;Prievidzu, ktorú vám v&nbsp;celej kráse predstavíme už v&nbsp;septembri.",
+      "Nechcem však čakať. Už dnes presne viem, na&nbsp;ktoré kľúčové piliere sa musíme zamerať okamžite. Toto je mojich Top 5 prioritných oblastí, ktoré naše mesto opäť pohnú dopredu:"
+    ],
+    "cards": [
+      { "n": "01", "title": "Otvorená a odborná samospráva", "text": "Pretože rozvoj mesta musia riadiť odborníci na&nbsp;základe dát a&nbsp;transparentnosti, nie rodinné nominácie a&nbsp;zákulisné dohody." },
+      { "n": "02", "title": "Doprava, verejný priestor a životné prostredie", "text": "Pretože moderné mesto potrebuje férové parkovanie, fungujúcu mobilitu, zelené centrum a&nbsp;infraštruktúru pripravenú na&nbsp;klimatické zmeny." },
+      { "n": "03", "title": "Vzdelávanie, školstvo a mládež", "text": "Pretože investícia do&nbsp;našich detí, kvalitných škôl a&nbsp;podpory mladých ľudí je jedinou cestou, ako udržať novú generáciu doma v&nbsp;Prievidzi." },
+      { "n": "04", "title": "Kultúra, šport a rozvoj komunitného života", "text": "Pretože Prievidza nesmie byť mestom, cez ktoré sa iba prechádza, ale živým miestom s&nbsp;dôstojnými podmienkami pre&nbsp;rodiny, seniorov aj športovcov." },
+      { "n": "05", "title": "Efektívne hospodárenie a strategický rozvoj", "text": "Pretože po&nbsp;útlme baníctva musí mesto prebrať iniciatívu, ozdraviť svoje financie, vytvárať podmienky pre&nbsp;prácu a&nbsp;priniesť reálne výsledky z&nbsp;transformácie regiónu." }
+    ]
+  },
+  "ctaBar": {
+    "eyebrow": "Buďte pri tom od začiatku",
+    "titleHtml": "Spravme z Prievidze mesto, na ktoré budeme <em>opäť hrdí.</em>",
+    "btnLabel": "Podporiť kampaň",
+    "btnHref": "#podpora",
+    "linkLabel": "alebo mi rovno napíšte →",
+    "linkHref": "#kontakt"
+  },
+  "team": {
+    "kicker": "Môj tím",
+    "title": "Pripravená zmena pre Prievidzu",
+    "lead": "Do&nbsp;volieb vediem tím ľudí zapálených pre&nbsp;verejnú službu. Prievidza je pre&nbsp;nás živý, pulzujúci organizmus, sieť vzťahov, komunít, ulíc a&nbsp;miest, ktoré milujeme. Je to náš spoločný domov, ktorý chceme spoločne definovať a&nbsp;tvoriť.",
+    "paragraphs": [
+      "Pokiaľ sme v&nbsp;minulosti hovorili, že Prievidza sa môže zmeniť a&nbsp;prekonať stagnáciu, dnes sme pripravení to reálne dokázať. Chceme vybudovať moderné, hrdé, pokojné a&nbsp;bezpečné mesto, v&nbsp;ktorom budeme chcieť žiť, pracovať a&nbsp;s&nbsp;radosťou vychovávať svoje deti.",
+      "<strong>Celých 8 rokov sme v&nbsp;mestskom zastupiteľstve pôsobili ako kvalitná, konštruktívna a&nbsp;odborná opozícia.</strong> Strážili sme mestský majetok, poukazovali na&nbsp;chyby, učili sa a&nbsp;rástli sme. Tieto roky nás zocelili a&nbsp;ukázali nám realitu správy mesta do&nbsp;najmenších detailov.",
+      "Dnes už nie sme len kritickým hlasom z&nbsp;opozičných lavíc.",
+      "Prinášame novú energiu, odvahu robiť dôležité rozhodnutia a&nbsp;jasný plán, ktorý sa opiera o&nbsp;silný tím odborníkov, lídrov z&nbsp;našich sídlisk a&nbsp;ľudí, ktorí v&nbsp;Prievidzi reálne žijú. Aby sme však pre&nbsp;naše mesto dokázali urobiť maximum, zmena sa nemôže zastaviť len na&nbsp;bránach mestského úradu. Potrebujeme silný hlas aj v&nbsp;regióne.",
+      "Preto vám predstavujem tím kandidátov na&nbsp;poslankyne a&nbsp;poslancov do&nbsp;mestského zastupiteľstva v&nbsp;Prievidzi a&nbsp;do&nbsp;zastupiteľstva Trenčianskeho samosprávneho kraja."
+    ],
+    "quote": "Dnes sme tá pravá, skúsená, odborná a&nbsp;plne pripravená zmena pre&nbsp;Prievidzu.",
+    "quoteSource": "— Branislav Gigac",
+    "districtsTitle": "Kandidáti a kandidátky do mestského zastupiteľstva",
+    "districtsCount": "dokopy 20 ľudí",
+    "districts": [
+      { "num": "I.", "label": "Volebný obvod č. I", "text": "Necpaly, Kopaničky, Žabník, Centrum, Dlhá, Hajfa, Piesky, Mládež, Ciglianska cesta" },
+      { "num": "II.", "label": "Volebný obvod č. II", "text": "Sídlisko Píly (Staré sídlisko)" },
+      { "num": "III.", "label": "Volebný obvod č. III", "text": "Zapotôčky a Nové mesto" },
+      { "num": "IV.", "label": "Volebný obvod č. IV", "text": "Kopanice (Sever)" },
+      { "num": "V.", "label": "Volebný obvod č. V", "text": "Malá Lehôtka, Veľká Lehôtka a Hradec" }
+    ],
+    "krajTitle": "Kandidáti a kandidátky do krajského zastupiteľstva",
+    "krajCount": "5 ľudí",
+    "krajText": "Aby sme pre naše mesto dokázali urobiť maximum, potrebujeme silný hlas aj v&nbsp;regióne — v&nbsp;zastupiteľstve Trenčianskeho samosprávneho kraja."
+  },
+  "support": {
+    "kicker": "Transparentné financovanie",
+    "title": "Podporte zmenu pre Prievidzu",
+    "body": "Našu kampaň financujeme <strong>transparentne, poctivo a&nbsp;s&nbsp;jasným zámerom</strong>, vrátiť Prievidzi energiu a&nbsp;odvahu. <strong>Žiadny dar nie je príliš malý.</strong> Každé jedno euro nám <strong>pomáha vytlačiť viac novín, prísť za&nbsp;vami do&nbsp;ulíc a&nbsp;spoločne meniť naše mesto k&nbsp;lepšiemu.</strong>",
+    "options": [
+      { "title": "Dar do 1 000 €", "text": "Môžete poslať jednoducho a&nbsp;rýchlo priamym prevodom na&nbsp;účet, bez potreby darovacej zmluvy." },
+      { "title": "Dar nad 1 000 €", "text": "Podlieha osobitným pravidlám. Ak nás chcete podporiť vyššou sumou, napíšte nám na&nbsp;info@lepsiaprievidza.sk a&nbsp;pripravíme darovaciu zmluvu." }
+    ],
+    "closing": "Obrovská vďaka za&nbsp;každé jedno euro a&nbsp;za&nbsp;vašu dôveru.",
+    "cardTitle": "Údaje pre platbu",
+    "pay": [
+      { "label": "Číslo účtu (IBAN)", "value": "doplní sa" },
+      { "label": "Banka", "value": "ČSOB, transparentný účet" },
+      { "label": "Poznámka pre prijímateľa", "value": "Dar na kampaň + vaše meno" }
+    ],
+    "cardBtnLabel": "Chcem podporiť kampaň",
+    "cardBtnHref": "#kontakt"
+  },
+  "contact": {
+    "kicker": "Buďme v kontakte",
+    "title": "Napíšte mi. Odpoviem osobne.",
+    "body": "Sledujte ma na&nbsp;sociálnych sieťach, nech vám neunikne nič z&nbsp;našich plánov, diskusií ani zo&nbsp;stretnutí priamo v&nbsp;uliciach Prievidze. Ak sa mi chcete ozvať s&nbsp;vaším podnetom, nápadom alebo otázkou, napíšte mi. Garantujem vám, že osobne odpoviem na&nbsp;každú jednu správu. Spoločne môžeme dať nášmu mestu budúcnosť a&nbsp;novú energiu.",
+    "socials": [
+      { "label": "Facebook", "href": "#" },
+      { "label": "Instagram", "href": "#" },
+      { "label": "YouTube", "href": "#" },
+      { "label": "info@lepsiaprievidza.sk", "href": "mailto:info@lepsiaprievidza.sk" }
+    ],
+    "formNamePlaceholder": "Vaše meno",
+    "formEmailPlaceholder": "Váš e-mail",
+    "formMsgPlaceholder": "Vaša správa, podnet alebo nápad",
+    "formSubmitLabel": "Odoslať správu"
+  },
+  "footer": {
+    "bigHtml": "Prievidza, pod ktorú sa môžem <span>podpísať.</span>",
+    "logoAlt": "Lepšia Prievidza",
+    "copyright": "© 2026 Branislav Gigac · Lepšia Prievidza",
+    "note": "Kampaň financovaná transparentne · ČSOB transparentný účet"
+  }
+}

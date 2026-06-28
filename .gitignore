@@ -1,0 +1,15 @@
+# závislosti
+node_modules/
+
+# build výstup (generuje sa automaticky, na FTP ho posiela GitHub Action)
+_site/
+
+# tajné premenné
+.env
+.env.*
+
+# TinaCMS generované súbory
+tina/__generated__/
+
+# systémové
+.DS_Store

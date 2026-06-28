@@ -1,0 +1,50 @@
+name: Build a nahranie na FTP
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Stiahni repo
+        uses: actions/checkout@v4
+
+      - name: Nastav Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Nainštaluj závislosti
+        run: npm ci
+
+      - name: Zbuilduj web
+        env:
+          NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
+          TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
+          GITHUB_BRANCH: ${{ github.ref_name }}
+        run: |
+          if [ -n "${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}" ]; then
+            echo "TinaCloud nastavený -> build vrátane /admin"
+            npm run tina:build
+          else
+            echo "TinaCloud zatiaľ nenastavený -> build len webu"
+            npm run build
+          fi
+
+      - name: Nahraj na FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ${{ vars.FTP_PROTOCOL || 'ftps' }}
+          server-dir: ${{ vars.FTP_SERVER_DIR || './' }}
+          local-dir: ./_site/
