@@ -46,7 +46,9 @@ jobs:
           SFTP_PASS: ${{ secrets.FTP_PASSWORD }}
           SFTP_DIR: ${{ vars.FTP_SERVER_DIR || './' }}
         run: |
-          sudo apt-get update -qq && sudo apt-get install -y -qq lftp
-          lftp -c "set sftp:auto-confirm yes; \
-            open -u '$SFTP_USER','$SFTP_PASS' sftp://$SFTP_SERVER:22; \
-            mirror -R --verbose --parallel=2 ./_site/ '$SFTP_DIR'"
+          sudo apt-get update -qq && sudo apt-get install -y -qq lftp sshpass
+          export SSHPASS="$SFTP_PASS"
+          lftp -c "set sftp:connect-program 'sshpass -e ssh -a -x -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o ConnectTimeout=20'; \
+            set net:timeout 20; set net:max-retries 2; set net:reconnect-interval-base 5; \
+            open -u '$SFTP_USER',dummy sftp://$SFTP_SERVER:22; \
+            mirror -R --verbose ./_site/ '$SFTP_DIR'"
