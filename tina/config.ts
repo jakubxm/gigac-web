@@ -9,8 +9,8 @@ const branch =
 
 export default defineConfig({
   branch,
-  // Tieto dve hodnoty pridáš z TinaCloud (návod v NAVOD.md). Bez nich beží len build webu.
-  clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID || "",
+  // Client ID nie je tajný (je verejný v admin appke). Token ide cez GitHub Secrets.
+  clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID || "9ffb0e74-fe05-4eb6-ae93-a82ff25f5ad7",
   token: process.env.TINA_TOKEN || "",
 
   build: {

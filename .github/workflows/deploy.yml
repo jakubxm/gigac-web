@@ -31,7 +31,7 @@ jobs:
           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
           GITHUB_BRANCH: ${{ github.ref_name }}
         run: |
-          if [ -n "${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}" ]; then
+          if [ -n "${{ secrets.TINA_TOKEN }}" ]; then
             echo "TinaCloud nastavený -> build vrátane /admin"
             npm run tina:build
           else
